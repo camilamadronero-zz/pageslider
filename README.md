@@ -1,1 +1,1 @@
-# page_slider
+# page-slider
