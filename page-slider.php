@@ -5,7 +5,7 @@ defined( 'ABSPATH' ) or die( 'Be kind and leave' );
  * Plugin Name: Page Slider
  * Plugin URI:  https://example.com/pageslider
  * Description: Simple Page Slider Feature
- * Version:     1
+ * Version:     1.0.0
  * Author:      Camila Madroñero
  * Author URI:  https://author.example.com/
  * License:     GPL2
