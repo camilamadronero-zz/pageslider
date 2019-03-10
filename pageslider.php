@@ -1,5 +1,3 @@
-defined( 'ABSPATH' ) or die( 'Be kind and leave' );
-
 <?php
 /**
  * Plugin Name: PageSlider
@@ -26,6 +24,8 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with PageSlider. If not, see {License URI}.
 */
+
+defined( 'ABSPATH' ) or die( 'Be kind and leave' );
 
 function pageslider_add_menu() {
 	add_submenu_page("options-general.php", "PageSlider", "PageSlider", "manage_options", "pageslider-hello-world", "pageslider_hello_world_page");
