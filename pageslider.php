@@ -27,7 +27,7 @@ You should have received a copy of the GNU General Public License
 along with PageSlider. If not, see {License URI}.
 */
 
-function page-slider-add-menu() {
+function pageslider_add_menu() {
 	add_submenu_page("options-general.php", "PageSlider", "PageSlider", "manage_options", "pageslider-hello-world", "pageslider_hello_world_page");
 }
 add_action("admin_menu", "pageslider_add_menu");
